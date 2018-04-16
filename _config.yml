@@ -23,3 +23,12 @@ markdown: kramdown
 # xxxxx字符串
 baidu_tongji_id: 96ca30748ba77233e445acf4d88fecb2
 google_analytics_id: UA-114578002-1 # google 分析追踪id
+
+exclude:
+         - vendor
+         - Gemfile
+         - Gemfile.lock
+         - node_modules
+         - gulpfile.js
+         - package.json
+
